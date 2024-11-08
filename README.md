@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 🌐 Application de Suivi des Prix des Cryptomonnaies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cette application est un site web de suivi des prix de cryptomonnaies, développé avec **React.js** et utilisant l'API **CoinGecko** pour récupérer des informations en temps réel. Elle permet de suivre les fluctuations de prix, le classement de marché et d'autres données pertinentes pour chaque cryptomonnaie.
 
-## Available Scripts
+<img width="1440" alt="Screenshot 2024-11-08 at 09 53 27" src="https://github.com/user-attachments/assets/c08c5a1f-0087-4586-8dc7-94b73e289a8a">
+<img width="1437" alt="Screenshot 2024-11-08 at 09 50 36" src="https://github.com/user-attachments/assets/ff2acf0c-dd7e-4770-8db6-410b986d4c1f">
+<img width="1431" alt="Screenshot 2024-11-08 at 09 49 08" src="https://github.com/user-attachments/assets/3400c8ba-db2a-4818-94ae-95787ba80e8b">
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **📈 Données en Temps Réel** : Consultez les prix actuels, le market cap, et d'autres statistiques importantes.
+- **🔍 Recherche** : Recherchez des cryptomonnaies par leur nom ou symbole pour un accès rapide.
+- **📊 Graphique des Prix** : Visualisez l'évolution des prix sous forme de graphique.
+- **💹 Informations Complètes** : Affiche le prix actuel, le market cap, le classement de marché, la variation sur 24 heures, et bien plus.
 
-### `npm test`
+## 🛠️ Technologies Utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** : Frontend
+- **Axios** : Requêtes HTTP
+- **CoinGecko API** : Fournisseur de données de cryptomonnaies
+- **Chart.js** : Visualisation des données de prix
 
-### `npm run build`
+## 🚀 Prérequis
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Avant de commencer, assurez-vous d'avoir installé :
+- **Node.js** : Version 12 ou plus
+- **npm** : Gestionnaire de paquets Node
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Suivez les étapes ci-dessous pour configurer et exécuter l'application sur votre machine locale.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clonez le dépôt** :
+   ```bash
+   git clone https://github.com/YounessManyani/CryptoTrack.git
